@@ -1,9 +1,27 @@
+Cred username for the Git
 git config --global user.name "yamank"
 git config user.name
 
+Cred email for the Git
 git config --global user.email "yamkumarsgfi.yk@gmail.com"
 git config user.email
 
+Assigning folder for the project to watch for the changes
 git init
 
+Checking/waching the status of the folder
 git status
+
+Creating a new file
+echo file1.txt
+
+Letting git know about the a file
+git add file1.txt
+git add .
+
+letting git to leave a file
+git rm --cached file1.txt
+git rm --cached .
+
+Commit the changes inside the folder
+git commit -m "comments"
